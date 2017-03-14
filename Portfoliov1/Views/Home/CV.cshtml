@@ -1,0 +1,148 @@
+﻿@model Portfoliov1.Models.CvViewModel
+
+@{
+    ViewBag.Title = "CV";
+}
+
+
+<br />
+
+<div class="CV">
+    <div class="contact">
+        <p> 07474949338 | o.miller216@gmail.com | 	43 Turves Green, Northfield, Birmingham, B31 4AH <hr /></p>
+
+    </div>
+    <div class="NameTitle">
+        <h1><b>Orville Miller Graduate C# ASP.Net Developer</b></h1>
+    </div>
+    <br />
+    <br />
+    <div class="ps">
+        <h4><b>Personal Statement</b></h4><hr />
+        <p> I Graduated from Birmingham City University in July 2016, where I studied Computer Science and achieved a 2:1 with honours. During my studies, I was challenged with multiple task that enabled me to incorporate the principles of Object Oriented programming. From this I decided to learn more outside of my studies and practice using C# Asp.Net, and MVC.  I used simple console applications to practice my C# skills, while building larger applications using MVC 5 in Visual Studio 2015. An example of this would be final year project, or my online portfolio project which uses Entity Framework. I enjoy writing back end logic and solving problems that arise during programming.</p>
+    </div>
+    <br />
+
+    <div class="row">
+        <div class="col-md-4">
+            <p><b>Software and Web Development Experience</b></p>
+            <ul>
+                <li>
+                    <p>C#</p>
+                </li>
+                <li>
+                    <p>ASP.Net</p>
+                </li>
+                <li>
+                    <p>MVC</p>
+                </li>
+                <li>
+                    <p>SQL</p>
+                </li>
+                <li>
+                    <p>JavaScript</p>
+                </li>
+                <li>
+                    <p>CSS</p>
+                </li>
+                <li>
+                    <p>BootStrap</p>
+                </li>
+                <li>
+                    <p>Entity Framework</p>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="col-md-offset-8">
+            <p><b>Additional Technical Skills</b></p>
+            <ul>
+                <li>
+                    <p>Object Oriented Programming</p>
+                </li>
+                <li>
+                    <p>Confident with a range of IDE such as Visual studio, xCode</p>
+                </li>
+                <li>
+                    <p>Microsoft Office Suite( Word, Excel, Access, PowerPoint,)</p>
+                </li>
+                <li>
+                    <p>Windows Operating Systems ( XP,7,8,10)</p>
+                </li>
+                <li>
+                    <p>Network Design, switch/router configuration</p>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-offset-4">
+            <p><b>Personable Skills</b> </p>
+            <ul>
+                <li>
+                    <p>Analytic thinker, Meticulous.</p>
+                </li>
+                <li>
+                    <p>Excellent Communication Skills,</p>
+                </li>
+                <li>
+                    <p>Can be a team leader if necessary.</p>
+                </li>
+                <li>
+                    <p>Problem Solving Skills,</p>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+
+
+    <div class="Edu">
+        <h4><b>Education</b></h4>
+        <a href="~/Views/Web.config">~/Views/Web.config</a>
+        <hr />
+
+    </div>
+    <div class="Work">
+
+    </div>
+    <div class="Personal">
+        <div class="interest">
+
+        </div>
+        <div class="hobbies">
+
+        </div>
+
+    </div>
+    <div class="Refs">
+
+    </div>
+    <div class="Additional">
+
+    </div>
+</div>
+
+
+
+
+
+
+    @*@foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }*@
+
+<p>
+    @Html.ActionLink("Add", "CVEdit")
+</p>
